@@ -6,6 +6,18 @@ A tool for quickly analysing how much time users are spending on each widget of 
 
 This is for people who have created a ListView of widgets to build blog like content, and want to understand how much time the user spent on each widget to make estimations of reading time, scroll depth etc
 
+## Where to find?
+
+[https://pub.dev/packages/bloglytics](https://pub.dev/packages/bloglytics)
+
+## How to install?
+
+Refer [https://pub.dev/packages/bloglytics/install](https://pub.dev/packages/bloglytics/install)
+
+Or simply execute the command 
+1. ``flutter pub add bloglytics`` in your terminal, then run 
+2. ``flutter pub get``
+
 ## The Basics
 
 This package enables you to 
