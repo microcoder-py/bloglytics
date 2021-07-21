@@ -31,7 +31,6 @@ class analyticsManager
 
       this.isVisible = true;
       this.watch.start();
-      this.watch.reset();
       this.whenStarted = DateTime.now();
     }
 
@@ -40,6 +39,7 @@ class analyticsManager
       this.isVisible = false;
       Duration spentReading = this.watch.elapsed;
       this.watch.stop();
+      this.watch.reset();
       this.snapshot.addNewUsageStat(this.key, this.whenStarted, spentReading);
     }
   }
