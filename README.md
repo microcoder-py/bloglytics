@@ -2,6 +2,10 @@
 
 A tool for quickly analysing how much time users are spending on each widget of your blog
 
+## Who is this for?
+
+This is for people who have created a ListView of widgets to build blog like content, and want to understand how much time the user spent on each widget to make estimations of reading time, scroll depth etc
+
 ## The Basics
 
 This package enables you to 
