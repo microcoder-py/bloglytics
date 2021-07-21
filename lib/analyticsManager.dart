@@ -31,6 +31,7 @@ class analyticsManager
 
       this.isVisible = true;
       this.watch.start();
+      this.watch.reset();
       this.whenStarted = DateTime.now();
     }
 
