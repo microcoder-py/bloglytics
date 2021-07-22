@@ -45,4 +45,4 @@ To get the analytics, call
 1. ``keepEyeInstance.snapshot.encodeStatstoJSON()`` which returns a serialised JSON string, or
 2. ``keepEyeInstance.snapshot.getStats()`` which will return a Map object 
 
-If you want summary statistics of what happens in the end, just call this function at whatever point in the widget lifecycle you see fit, such as when it is being disposed, or when it is being thrown out of view.
+If you want summary statistics of what happens in the end, just call this function at whatever point in the widget lifecycle you see fit, such as when it is being disposed, or when it is being thrown out of view. 
