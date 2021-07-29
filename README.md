@@ -1,6 +1,6 @@
 # bloglytics
 
-A tool for quickly analysing how much time users are spending on each widget of your blog
+A Flutter tool for quickly analysing how much time users are spending on each widget of your blog
 
 ## Who is this for?
 
