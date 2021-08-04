@@ -36,10 +36,12 @@ This package enables you to
 
 The analytics tracked here are the first created timestamps of each widget, and then when they were viewed again as well as the time spent on each view with the schema
 
-``{ 'widget_name': {
+```
+{ 'widget_name': {
       'createdAt': timeStamp,
       'usedWhen_howLong': [{'started':'usedFor'},{'started':'usedFor'},{'started':'usedFor'} ... ]
-  }``
+}
+ ```
 
 To get the analytics, call 
 1. ``keepEyeInstance.snapshot.encodeStatstoJSON()`` which returns a serialised JSON string, or
