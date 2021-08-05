@@ -41,6 +41,20 @@ The analytics tracked here are the first created timestamps of each widget, and 
       'widget_name': {
             'createdAt': timeStamp,
             'usedWhen_howLong': [{'started':'usedFor'},{'started':'usedFor'},{'started':'usedFor'} ... ]
+            },
+      'widget_name': {
+            'createdAt': timeStamp,
+            'usedWhen_howLong': [{'started':'usedFor'},{'started':'usedFor'},{'started':'usedFor'} ... ]
+            },
+      'widget_name': {
+            'createdAt': timeStamp,
+            'usedWhen_howLong': [{'started':'usedFor'},{'started':'usedFor'},{'started':'usedFor'} ... ]
+            },
+            
+            .
+            .
+            .
+           
 }
  ```
 
